@@ -1,0 +1,103 @@
+body,
+*{
+	background-color: whitesmoke;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	color: white;
+	font-size:70px;
+	margin-bottom: 50px;
+	padding: 20px 0px 30px;
+	height: 100px;
+	background-color: lightcoral;
+	border-bottom: 1px solid black;
+	box-shadow: 0px -10px 20px -10px rgba(0, 0, 0, 0.493) inset;
+}	
+
+.introtext{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	text-align: center;	
+
+	padding: 30px 40px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.493);
+}
+
+.welkcontinent{
+	justify-content: space-around;
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+select{
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 10px;
+	border: none;
+	padding: 5px 10px;
+	font-weight: bold;
+	margin-top: 10px;
+	border: 0.5px solid black;
+	transition: 0.2s;
+	cursor: pointer;
+	background-color: white;
+}
+
+button{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	text-align: center;	
+	margin-top: 40px;
+	
+	background-color: lightcoral;
+	padding: 10px 20px;
+	font-size: larger;
+	border-radius: 10px;
+	border: 0;
+	color: white;
+	transition: 0.2s;
+	cursor: pointer;
+}
+button:hover{
+	background-color: red;
+}
+button:active{
+	background-color: darkred;
+}
+
+.landinfocontainer{
+	justify-content: space-around;
+	margin: auto;
+	text-align: left;	
+	margin-top: 40px;
+	width: 300px;	
+	display: none;
+
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.2s;
+	box-shadow: 10px 10px 20px -10px rgba(0, 0, 0, 0.493);
+}
+
+img{
+border-radius: 10px 10px 0px 0px;
+}
+
+.landinfocontainer p{
+	padding-left: 20px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+}

@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    </head>
+
+    <body>
+        <h1> -- Vakantie Kiezer -- </h1>
+        <p class="introtext"> "Waar gaan we dit jaar heen op vakantie?" Altijd een lastige vraag... 
+            Zo veel landen, zo veel keus en zo weinig vrije dagen om op vakantie te gaan. 
+            Hier op deze site is deze keuze gemaakt met slechts één druk op de knop! </p>
+        <form>
+        <div class="welkcontinent" id="mainDiv">
+            <label for="continentSelector" style="color: black;"> Welk continent moeten we in zoeken? </label> <br>
+            <select name="continent" id="continentSelector">
+                <option value="all"> Alle Continenten </option>
+                <option value="eu"> Europa </option>
+                <option value="am"> Amerika </option>
+                <option value="af"> Afrika </option>
+                <option value="az"> Azië </option>
+                <option value="oc"> Oceanië </option>
+            </select>
+         </form>
+        </div>
+        <div class="landinfocontainer">
+            <img id="landvlag" src="####" alt="Vlag van land" width="300px" height="200px">
+            <p><b> Land:</b>  <span id=landInfo></span></p>
+            <p><b> Hoofdstad:</b>  <span id=hoofdstadInfo></span></p>
+            <p><b> Taal:</b>  <span id=taalInfo></span></p>
+            <p><b> Inwoneraantal:</b>  <span id=inwonerInfo></span> miljoen</p>
+            <p><b> Valuta:</b>  <span id=valutaInfo></span></p>
+            <p style="padding-bottom: 20px;"><b> Continent:</b>  <span id=continentInfo></span></p>
+        </div>
+        <button onclick="getInfo()"> Klik Hier </button>
+    <script src="main.js"></script> 
+    </body>
+    </html> 	
